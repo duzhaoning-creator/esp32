@@ -39,7 +39,7 @@ void app_main(void)
         vTaskDelay(pdMS_TO_TICKS(5000)); // 5秒检查一次
     }
     
-    // printf("Hello world!\n");
+    printf("Hello world!\n");
     // camera_init();
     // gpio_set_direction(2, GPIO_MODE_OUTPUT);
     // while (1) {
